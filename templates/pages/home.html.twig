@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Agence immobiliere{% endblock %}
+{% block body %}
+
+    <div class="jumbotron text-center" >
+        <h2>Bienvenue dans SamaAgence,</h2>
+        <p>Faites nous confinance pour vous aidez à acheter ou à louer des appartements, maisons, villas, immeubles meublés
+            ou terrains selon votre budget.<br/>
+            Notre agence vous propose une sélection complète de biens de qualité dans tout le Sénégal principalement
+            dans la capitale dakaroise.<br/>Votre satisfaction est notre préoccupation quotidienne.
+        </p>
+    </div>
+    <div class="container">
+        <!--h2>Les derniers biens</h2-->
+        <div class="row flex">
+            {% for property in properties  %}
+                <div class="col-3">
+
+                    {% if property.filename %}
+                        <img src="{{ vich_uploader_asset(property,'imageFile') | imagine_filter('thumb') }}" alt="card-img-top" style="width: 100%;height: 200px">
+                    {% else %}
+                        <img src="{{ '/images/biens/empty.jpg' | imagine_filter('thumb') }}" alt="card-img-top" style="width: 100%;height: 200px">
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <a href="{{ path('property.show',{id:property.id,slug:property.slug}) }}">{{ property.title }}</a>
+                            </h6>
+                            <p class="card-text">{{ property.typeType }} {{ property.objectifType }}</p>
+                            <div class="text-primary" style="font-weight: bold;font-size: 1.5rem;">{{ property.formatedPrix }} FCFA</div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+{% endblock %}
