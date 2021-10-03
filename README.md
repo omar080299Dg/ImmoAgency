@@ -1,4 +1,4 @@
-SamaAgence est un agence immobilière basée à Dakar, au Sénégal accompagne particuliers, propriétaires et professionnels à 
+SamaAgence, une agence immobilière basée à Dakar, au Sénégal accompagne particuliers, propriétaires et professionnels à 
 travers divers services immobiliers. Nous intervenons ainsi dans la location ou la vente d’appartement; 
 de villas; terrains et autres biens.
 Nous vous faisons bénéficier de l’expérience avérée de ses agents et d’une connaissance parfaite du secteur 
