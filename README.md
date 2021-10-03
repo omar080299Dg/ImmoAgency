@@ -9,6 +9,6 @@ au Sénégal, particulièrement à Dakar. La location de propriétés immobiliè
 destinées aux entreprises fait également partie de notre offre.
 
 
-SamaAgence est un agence immobilière qui propose globalement des services de l’immobilier telque: location ou vente.
-Notre agence vous propose une sélection complète biens de qualité dans tout le Sénégal principalement
+SamaAgence est une agence immobilière qui propose globalement des services de l’immobilier telque: location ou vente.
+Notre agence vous propose une sélection complète de biens de qualité dans tout le Sénégal principalement
 dans la capitale dakaroise.Votre satisfaction est notre préoccupation quotidienne. 
