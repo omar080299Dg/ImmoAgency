@@ -23,6 +23,11 @@ security:
 
             form_login:
                 check_path: login
+            guard:
+                authenticators:
+                    - App\Security\UsersAuthenticator
+                    - App\Security\UserAuthenticator
+                entry_point: App\Security\UsersAuthenticator
             # https://symfony.com/doc/current/security.html#firewalls-authentication
 
             # https://symfony.com/doc/current/security/impersonating_user.html
